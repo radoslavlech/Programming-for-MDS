@@ -15,7 +15,7 @@ c = float(input("Enter c: "))
 
 # This is a tuple for results. You should override it with actual results
 
-xx = ()
+solution = ()
 
 # DO NOT CHANGE ANYTHING ABOVE THIS LINE!!!
 
@@ -23,14 +23,14 @@ xx = ()
 # Put your here...
 delta=b**2-4*a*c
 if a==0:
-    xx=-c/b,
+    solution=-c/b
 elif delta<0:
-    xx=('no real roots')
+    solution=('no real roots')
 elif delta==0:
-    xx=-b/(2*a),
+    solution=-b/(2*a),
 else:
-    xx=(-b-delta**0.5)/(2*a),(-b+delta**0.5)/(2*a)
+    solution=(-b-delta**0.5)/(2*a),(-b+delta**0.5)/(2*a)
 
 
 # At the end the results are printed to the screen
-print(*xx)
+print(*solution)
