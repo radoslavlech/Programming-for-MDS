@@ -19,3 +19,8 @@ The password is insecure!
 """
 
 # your code here
+password=input("Enter your password: ")
+for character in password:
+    if 'a'<= character <= 'z':
+        for character in password:
+            if 
