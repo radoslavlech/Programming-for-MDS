@@ -28,3 +28,8 @@ on the screen:
 """
 
 # your code here
+n=1000000
+pi=2
+for k in range (1,n,100):
+      pi=pi*(4*k**2)/(4*k**2-1)
+      print(pi)

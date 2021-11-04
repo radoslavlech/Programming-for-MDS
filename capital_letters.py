@@ -9,3 +9,11 @@ Enter text: Data Science is SUPER!
 """
 
 # your code here
+text=input("Add your text here: ")
+sum=0
+for character in text:
+    if character 'A' <= character<='Z':
+        sum+=1
+print("number of capital letters: "+str(sum))        
+
+    
