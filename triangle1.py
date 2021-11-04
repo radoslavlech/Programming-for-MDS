@@ -13,3 +13,8 @@ Enter the size of the triangle: 4
 """
 
 # your code here
+size=int(input("Enter the size of the triangle: "))
+stars=""
+for number in size:
+    stars=stars+"*"
+    print(stars)
